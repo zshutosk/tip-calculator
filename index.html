@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div class="form">
+        <div class="title">Tip Calculator</div>
+        <div class="subtitle">Let's calculate your tip!</div>
+        <div class="input-container ic1">
+          <div class="box-title">Bill Amount:</div>
+          <input id="bill-amount" class="input" type="number" placeholder=" " />
+         
+          <label for="bill-amount" class="placeholder">$0.00</label>
+        </div>
+        <div class="input-container ic2">  
+          <div class="box-title">Amount of people:</div>
+          <input id="numpeople" class="input" type="number" placeholder=" " value="" />
+          <label for="numpeople" class="placeholder">1<label>
+      </div>
+        <div class="input-container ic3">  
+            <div class="box-title">Calculate Tip Percentage:</div>
+            <button type="text" value ="10" class="tip-button">10%</button>
+            <button type="text" value ="15" class="tip-button">15%</button>
+            <button type="text" value ="20" class="tip-button">20%</button>
+            <button type="text" value ="25" class="tip-button">25%</button>
+            <button type="text" value ="30" class="tip-button">30%</button>
+        </div>
+
+        <div class="input-container ic4">
+          <div class="box-title">Tip Total per person:</div>
+          <input id="tip-amount" class="input" type="text" placeholder=" " value="" />
+       
+          <label for="tip-amount" class="placeholder">$0.00<label>
+        </div>
+        <div class="input-container ic5">
+          <div class="box-title">Bill Total per person:</div>
+            <input id="bill-total" class="input" type="text" placeholder=" " value="" />
+       
+            <label for="bill-total" class="placeholder">$0.00<label>
+          </div>
+          <button onClick="window.location.reload();" type="text" class="submit">Reset</button>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
