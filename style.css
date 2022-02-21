@@ -67,7 +67,7 @@
 
   .ic3 {
     margin-top: 40px;
-
+    text-align:center;
   }
 
   .ic4 {
@@ -167,9 +167,9 @@
 
   @media only screen and (max-width: 600px) {
     .tip-button{
-      font-size: 18px;
+      font-size: 19px;
       border-radius: 8px;
       height: 37px;
-      padding:2px;
+      
     }
   }
