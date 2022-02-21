@@ -146,25 +146,7 @@
   .tip-button:focus{
     background-color: #06b;
   }
-
-  .people-button {
-    background-color: #08d;
-    border-radius: 10px;
-    border: 0;
-    box-sizing: border-box; 
-    color: #eee;
-    cursor: pointer;
-    font-size: 23px;
-    height: 34px;
-    width:36px;
-    outline: 0;
-  }
-
-  .people-button:focus{
-    background-color: #06b;
-  }
-
-  
+ 
   .submit {
     background-color: #08d;
     border-radius: 12px;
