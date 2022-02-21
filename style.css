@@ -31,6 +31,7 @@
     color:#eee;
     font-family: 'Montserrat', sans-serif;
     font-size:14px;
+    text-align:left;
     margin-bottom:5px;
   }
   
@@ -167,7 +168,7 @@
 
   @media only screen and (max-width: 600px) {
     .tip-button{
-      font-size: 19px;
+      font-size: 18px;
       border-radius: 8px;
       height: 37px;
       
