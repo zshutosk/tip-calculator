@@ -165,3 +165,10 @@
     background-color: #06b;
   }
 
+  @media only screen and (max-width: 600px) {
+    .tip-button{
+      font-size: 15px;
+      border-radius: 15px;
+      height: 40px;
+    }
+  }
